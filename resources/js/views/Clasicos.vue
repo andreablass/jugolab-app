@@ -14,7 +14,6 @@ onBeforeMount(() => {
   }
 })
 
-// Abrir modal con datos del jugo seleccionado
 function openModal(item) {
   selectedItem.value = item
   showModal.value = true
